@@ -1,0 +1,14 @@
+# Dependências (O Render vai instalar o node_modules sozinho na nuvem)
+node_modules/
+
+# Variáveis de Ambiente (NUNCA suba suas senhas e URLs para o GitHub)
+.env
+
+# Logs de erro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
