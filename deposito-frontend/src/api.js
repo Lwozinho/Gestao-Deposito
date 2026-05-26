@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3333'
+  baseURL: 'https://gestao-deposito.onrender.com'
 });
 
 // Intercepta todas as requisições antes de saírem para o Node.js
